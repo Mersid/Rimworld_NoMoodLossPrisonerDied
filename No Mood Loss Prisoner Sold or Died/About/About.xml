@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>No Mood Loss on Prisoner Sold or Died</name>
+  <author>CallMeDio</author>
+  <targetVersion>0.18.0</targetVersion>
+  <description>Remove mood penalties from "innocent prisoner died" now labelled "prisoner died" and also from "prisoner was sold".
+Bonus: Hilariously ironic description for the moods that now are only thoughts with 0 mood effect.
+  Disclaimer: (Penalties for butchering, euthanizing, removing organs, killed by organ harvest and other sorts of stuff remains) BUT HEY! You can still cut the legs right? -Right! And Left!
+Updated for B18</description>
+</ModMetaData>

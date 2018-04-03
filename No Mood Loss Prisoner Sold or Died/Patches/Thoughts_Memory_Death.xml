@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<Defs>
+	<ThoughtDefs>
+
+
+	 <ThoughtDef ParentName="DeathMemory">
+		<defName>KnowPrisonerDiedInnocent</defName>
+		<durationDays>2</durationDays>
+		<stackLimit>1</stackLimit>
+		<nullifyingTraits>
+		  <li>Psychopath</li>
+		  <li>Bloodlust</li>
+		</nullifyingTraits>
+		<stages>
+		  <li>
+			<label>prisoner died</label>
+			<description>Oh my... What Are we going to do now? Drink beer or watch tv?</description>
+			<baseMoodEffect>0.1</baseMoodEffect>
+		  </li>
+		</stages>
+	  </ThoughtDef>
+	  
+	</ThoughtDefs>
+</Defs>
+-->
+
+<Patch>
+	<Operation Class = "PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/durationDays
+		<value>
+			<durationDays>2</durationDays>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/stackLimit
+		<value>
+			<stackLimit>1</stackLimit>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/stages
+		<value>
+			<stages>
+				<li>
+					<label>prisoner died</label>
+					<description>Oh my... What Are we going to do now? Drink beer or watch tv?</description>
+					<baseMoodEffect>0.1</baseMoodEffect>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	
+</Patch>

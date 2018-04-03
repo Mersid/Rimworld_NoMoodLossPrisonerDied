@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+<Defs>
+	<ThoughtDefs>
+
+		
+	<ThoughtDef>
+			<defName>KnowPrisonerSold</defName>
+			<durationDays>2</durationDays>
+			<stackLimit>1</stackLimit>
+			<stages>
+				<li>
+					<label>a prisoner was sold</label>
+					<description>Got out alive huh? So lucky... The others are on the fridge.</description>
+					<baseMoodEffect>0.1</baseMoodEffect>
+				</li>
+			</stages>
+		</ThoughtDef>
+	 
+	</ThoughtDefs>
+</Defs>
+-->
+
+<Patch>
+	<Operation Class = "PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/durationDays
+		<value>
+			<durationDays>2</durationDays>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/stackLimit
+		<value>
+			<stackLimit>1</stackLimit>
+		</value>
+	</Operation>
+	
+	<Operation Class = "PatchOperationReplace">
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerSold"]/stages
+		<value>
+			<stages>
+				<li>
+					<label>a prisoner was sold</label>
+					<description>Got out alive huh? So lucky... The others are on the fridge.</description>
+					<baseMoodEffect>0.1</baseMoodEffect>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	
+</Patch>
