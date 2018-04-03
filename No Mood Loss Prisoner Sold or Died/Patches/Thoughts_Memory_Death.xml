@@ -27,21 +27,21 @@
 
 <Patch>
 	<Operation Class = "PatchOperationReplace">
-		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/durationDays
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/durationDays</xpath>
 		<value>
 			<durationDays>2</durationDays>
 		</value>
 	</Operation>
 	
 	<Operation Class = "PatchOperationReplace">
-		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/stackLimit
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/stackLimit</xpath>
 		<value>
 			<stackLimit>1</stackLimit>
 		</value>
 	</Operation>
 	
 	<Operation Class = "PatchOperationReplace">
-		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/stages
+		<xpath>/Defs/ThoughtDef[defName = "KnowPrisonerDiedInnocent"]/stages</xpath>
 		<value>
 			<stages>
 				<li>
